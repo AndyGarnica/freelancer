@@ -28,17 +28,11 @@
 .home-Container{
   background-color: #18BC9C;
 }
-img, .profile{
-  display: block;
-  max-width: 50%;
+#profile{
   height: auto;
   border: 0;
   text-align: center;
-  color: #FFFFFF;
-  margin-top: 110px;
-}
-.izq, .der{
-  display: block;
+  margin-top: 100px;
 }
 
 #bootstrap{
@@ -46,7 +40,7 @@ img, .profile{
   background: #18BC9C;
   color: #FFFFFF;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 900px;
 }
@@ -56,5 +50,34 @@ img, .profile{
   color: #FFFFFF;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500px;
+  font-size: 30px;
   padding: 10px;
+}
+#portfolio{
+  margin-top: 80px;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.size-img{
+  width: 100%;
+  margin-top: -15px;
+  display: block;
+  height: auto;
+}
+hr{
+  max-width: 250px;
+  border: none;
+  border-top: 5px solid;
+}
+
+hr.star:after{
+  content: "\f005";
+  font-family: FontAwesome;
+  font-size: 30px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  padding: 5px;
+  background-color: #18BC9C;
 }

@@ -1,0 +1,38 @@
+/*
+ * Estilos de tu proyecto
+ */
+ .Container{
+   text-align: center;
+}
+
+.menu{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+padding: 10px;
+background: #2C3E50;
+position: fixed;
+width: 100%;
+overflow: auto;
+}
+#star-bootstrap{
+  font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#portafolio, #about, #contact{
+  font-size: 17px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+img{
+  float: inherit;
+  display: block;
+  max-width: 50%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  text-align: center;
+  background: #18BC9C;
+  color: #FFFFFF;
+}

@@ -65,19 +65,31 @@
   display: block;
   height: auto;
 }
-hr{
-  max-width: 250px;
-  border: none;
-  border-top: 5px solid;
+.row-style-text{
+  text-align: center;
+  color: #FFFFFF;
+  background: #18BC9C;
 }
+#style-title{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900px;
+}
+.style-parraf{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+}
+.boton{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: solid 2px white;
+  border-radius: 6;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  font-weight: 700;
 
-hr.star:after{
-  content: "\f005";
-  font-family: FontAwesome;
-  font-size: 30px;
-  display: inline-block;
-  position: relative;
-  top: -20px;
-  padding: 5px;
-  background-color: #18BC9C;
 }

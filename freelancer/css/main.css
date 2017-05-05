@@ -91,5 +91,25 @@
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
   font-weight: 700;
+}
+#contact-me h2 {
+   text-align: center;
+   font-size: 38px;
+}
+input{
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: rgb(244,245,246,.2);
+}
 
+#send{
+  border-radius: 5%;
+  color: #fff;
+  background-color: #18BC9C ;
+  border-color: #18BC9C ;
+  font-weight: 700;
+  padding: 10px 16px;
+  margin-bottom: 10%;
 }
